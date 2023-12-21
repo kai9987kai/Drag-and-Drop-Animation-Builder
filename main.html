@@ -48,7 +48,7 @@
             z-index: 0;
         }
 
-        .timeline-btn, #controls button {
+        .timeline-btn, #controls button, #shapeSelector, #colorInput, #imageInput {
             margin: 5px;
             padding: 5px 10px;
             background-color: #3498db;
@@ -56,7 +56,7 @@
             cursor: pointer;
         }
 
-        #shapeSelector, #rotateInput, #speedInput, #colorInput, #imageInput {
+        #rotateInput, #speedInput {
             margin: 5px;
             padding: 5px;
         }
@@ -176,6 +176,15 @@
                         draggable.style.transform = `rotate(${keyframe.rotate}deg)`;
                         draggable.style.backgroundColor = keyframe.color;
                         shapeSelector.value = keyframe.shape;
+
+                        if (keyframe.image) {
+                            draggable.style.backgroundImage = `url('${keyframe.image}')`;
+                            draggable.style.backgroundSize = 'cover';
+                            draggable.style.backgroundColor = 'transparent';
+                        } else {
+                            draggable.style.backgroundImage = 'none';
+                        }
+
                         currentIndex++;
                     } else {
                         clearInterval(intervalId);
