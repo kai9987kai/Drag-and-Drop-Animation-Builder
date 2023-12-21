@@ -1,10 +1,12 @@
 # Drag and Drop Animation Builder
 
-This is a simple web-based animation builder that allows users to create animations through drag and drop interactions. The builder includes features such as adding keyframes, deleting keyframes, and playing animations.
+This is a simple web-based animation builder that allows users to create animations through drag-and-drop interactions. The builder includes features such as adding keyframes, deleting keyframes, and playing animations.
 
 ## Features
 
 - **Drag and Drop**: Easily move elements around the animation container by clicking and dragging.
+- **Rotation**: Roate The Shape
+- **Speed**: Change animation speed,
 - **Keyframes**: Add keyframes to record the position and shape of elements at specific times.
 - **Timeline**: Visualize and navigate keyframes with a timeline interface.
 - **Play and Pause**: Play animations in real-time or pause them at any point.
