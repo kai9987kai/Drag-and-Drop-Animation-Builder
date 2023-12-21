@@ -6,6 +6,8 @@ This is a simple web-based animation builder that allows users to create animati
 
 - **Drag and Drop**: Easily move elements around the animation container by clicking and dragging.
 - **Rotation**: Roate The Shape
+- **Colour**: Change the Shape Colour in each keyframe
+- **Custom Image as shape**: add a URL for a image to replace the shape
 - **Speed**: Change animation speed,
 - **Keyframes**: Add keyframes to record the position and shape of elements at specific times.
 - **Timeline**: Visualize and navigate keyframes with a timeline interface.
